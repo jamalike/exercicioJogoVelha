@@ -12,3 +12,35 @@ casa.forEach(c => {
         }
     });
 })
+casa.addEventListener(click)
+{
+    
+}
+function verificaVitoria()
+{
+//verifica colunas
+    if((casa[0].innerText) &&
+        (casa[0].innerText == casa[1].innerText) &&
+        (casa[1].innerText == casa[2].innerText)){
+        return casa[0].innerText;
+    }
+
+    if((casa[0].innerText) &&
+        (casa[0].innerText == casa[1].innerText) &&
+        (casa[1].innerText == casa[2].innerText)){
+        return casa[0].innerText;
+    }
+
+    return '';
+}
+function verificaEmpate()
+{
+    if(
+        (casa[0].innerText)&&
+        (casa[1].innerText != "x") ||
+        (casa[1]).innerText != "")
+        {
+            return "empate";
+        }
+ 
+}
